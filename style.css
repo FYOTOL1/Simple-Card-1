@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #0f1c2d;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #14273e;
+    padding: 20px 13px;
+    border-radius: 15px;
+    height: 465px;
+    width: 280px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.623);
+}
+
+img {
+    width: 95%;
+    border-radius: 15px;
+}
+
+.h2-1 {
+    color: #dfe6ed;
+    padding: 15px 0;
+}
+
+.local p {
+    color: #8caad5e1;
+    padding-bottom: 15px;
+    line-height: 23px;
+}
+
+.local img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.eth {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 255, 170);
+    padding-bottom: 15px;
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.298);
+}
+
+.eth :last-child {
+    color: #8caad5;
+}
+
+.eth .kok {
+    color: #0ef3f1;
+    font-weight: 600;
+    padding-left: 7px;
+}
+
+.eth .sos {
+    padding-left: 7px;
+}
+
+.lok {
+    display: flex;
+    padding-top: 13px;
+}
+
+.lok img {
+    width: 30px;
+    border: 1px solid #fff;
+}
+
+.lok p {
+    padding: 0 0 0 13px;
+    color: #8caad5;
+}
+
+span {
+    color: #ffffffd3;
+}
+
+.lol {
+    display: flex;
+    align-items: center;
+}
+
+.ico {
+    display: flex;
+}
